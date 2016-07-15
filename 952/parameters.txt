@@ -1,0 +1,25 @@
+NAME	VALUE
+Binreg Version	2
+Genes	475
+Metagenes	1
+Train0	Pi3K_signature_gfp.txt
+Train1	Pi3K_signature_tpm.txt
+Test	icbp_Rsubread_tpmlog.txt
+Normalization Reference File	
+Log Train0	0
+Log Train1	0
+Log Test	0
+Log Normalization Reference	0
+Strip AFFX control	0
+Quantile Normalize	0
+Shift-Scale Normalize	0
+DWD Normalize	1
+DWD Normalize (Bild)	0
+Burn In	1000
+Samples	5000
+Skips	1
+Credible Interval	95
+Cross Validate	1
+Make Plots	1
+Label Samples	1
+Draw Error Bars	1

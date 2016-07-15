@@ -1,0 +1,207 @@
+Running pybinreg.py analysis on Megatron.uth.tmc.edu on Thursday, 14 July 2016, 03:44 PM.
+Reading input parameters.
+Setting up a folder for the output files.
+Reading gene expression matrices.
+train0 file has 20,407 genes and 8 samples.
+train1 file has 20,407 genes and 9 samples.
+test file has 23,367 genes and 55 samples.
+Merged file has 18,216 genes.
+I will not log the train0 data.
+I will not log the train1 data.
+I will not log the test data.
+Normalizing with DWD.
+Writing processed dataset.
+Analyzing with 500 genes and 1 metagene.
+Formatting data for binreg analysis.
+Running binreg.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013b (8.2.0.701) 64-bit (glnxa64)
+                              August 13, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >>  BinReg started 
+
+
+ Data imported from Text:
+    18216 X 72 matrix of gene expression
+
+
+
+ Starting MCMC algorithm
+    1000 iterations complete
+    2000 iterations complete
+    3000 iterations complete
+    4000 iterations complete
+    5000 iterations complete
+    6000 iterations complete
+
+ Writing training results to file
+
+ Writing validation results to file
+
+ Starting Cross Validation
+    Sample 1 complete
+    Sample 2 complete
+    Sample 3 complete
+    Sample 4 complete
+    Sample 5 complete
+    Sample 6 complete
+    Sample 7 complete
+    Sample 8 complete
+    Sample 9 complete
+    Sample 10 complete
+    Sample 11 complete
+    Sample 12 complete
+    Sample 13 complete
+    Sample 14 complete
+    Sample 15 complete
+    Sample 16 complete
+    Sample 17 complete
+
+ Writing cross validation results to file
+
+ Writing metagene coefficients to file
+
+ BinReg finished 
+
+>> 
+Summarizing results.
+povray: cannot open the user configuration file /home/genepattern/.povray/3.6/povray.conf: No such file or directory
+Persistence of Vision(tm) Ray Tracer Version 3.6.1 (g++ 4.4.7 @
+ x86_64-unknown-linux-gnu)
+This is an unofficial version compiled by:
+ Jeffrey Chang <jeffrey.t.chang@uth.tmc.edu>
+ The POV-Ray Team(tm) is not responsible for supporting this version.
+POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
+Copyright 1991-2003 Persistence of Vision Team
+Copyright 2003-2004 Persistence of Vision Raytracer Pty. Ltd.
+
+Primary POV-Ray 3.5/3.6 Developers: (Alphabetically)
+  Chris Cason         Thorsten Froehlich  Nathan Kopp         Ron Parker        
+
+Contributing Authors: (Alphabetically)
+  Steve Anger         Eric Barish         Dieter Bayer        Steve A. Bennett  
+  David K. Buck       Nicolas Calimet     Aaron A. Collins    Chris Dailey      
+  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
+  Mark Gordon         Christoph Hormann   Mike Hough          Chris Huff        
+  Kari Kivisalo       Lutz Kretzschmar    Jochen Lippert      Pascal Massimino  
+  Jim McElhiney       Douglas Muir        Juha Nieminen       Bill Pulver       
+  Eduard Schwan       Wlodzimierz Skiba   Robert Skinner      Yvo Smellenbergh  
+  Zsolt Szalavari     Scott Taylor        Massimo Valentini   Timothy Wegner    
+  Drew Wells          Chris Young       
+
+Other contributors are listed in the documentation.
+
+Support libraries used by POV-Ray:
+  ZLib 1.2.3, Copyright 1995-1998 Jean-loup Gailly and Mark Adler
+  LibPNG 1.2.5, Copyright 1998-2002 Glenn Randers-Pehrson
+  LibJPEG 6b, Copyright 1998 Thomas G. Lane
+  LibTIFF 3.6.1, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
+Redirecting Options
+  All Streams to console..........On 
+  Debug Stream to console.........On 
+  Fatal Stream to console.........On 
+  Render Stream to console........On 
+  Statistics Stream to console....On 
+  Warning Stream to console.......On 
+Parsing Options
+  Input file: /opt/GenePatternServer/Tomcat/webapps/gp/jobResults/951/tmpR2vZnl.
+pov (compatible to version 3.61)
+  Remove bounds........On 
+  Split unions.........Off
+  Library paths:
+    /usr/local/share/povray-3.6
+    /usr/local/share/povray-3.6/ini
+    /usr/local/share/povray-3.6/include
+Output Options
+  Image resolution 1536 by 1152 (rows 1 to 1152, columns 1 to 1536).
+  Output file: /opt/GenePatternServer/Tomcat/webapps/gp/jobResults/951/tmpFmFHTX
+.png, 24 bpp PNG
+  Graphic display......Off
+  Mosaic preview.......Off
+  CPU usage histogram..Off
+  Continued trace......Off
+Tracing Options
+  Quality:  9
+  Bounding boxes.......On   Bounding threshold: 3
+  Light Buffer.........On 
+  Vista Buffer.........On   Draw Vista Buffer....Off
+  Antialiasing.........On  (Method 1, Threshold 0.500, Depth 3, Jitter 1.00)
+  Clock value:    0.000  (Animation off)
+
+  0:00:00 Parsing
+  0:00:00 Creating bounding slabs
+  0:00:00 Creating vista buffer
+  0:00:00 Creating light buffers
+  0:00:00 Creating light buffers 31K tokens
+Scene Statistics
+  Finite objects:          893
+  Infinite objects:          1
+  Light sources:             1
+  Total:                   895
+
+  0:00:00 Rendering line 1 of 1152, 0 supersamples
+  0:00:01 Rendering line 124 of 1152, 3568 supersamples
+  0:00:02 Rendering line 195 of 1152, 12261 supersamples
+  0:00:03 Rendering line 245 of 1152, 20069 supersamples
+  0:00:04 Rendering line 287 of 1152, 25805 supersamples
+  0:00:05 Rendering line 334 of 1152, 32678 supersamples
+  0:00:06 Rendering line 394 of 1152, 40383 supersamples
+  0:00:07 Rendering line 443 of 1152, 46658 supersamples
+  0:00:08 Rendering line 485 of 1152, 53246 supersamples
+  0:00:09 Rendering line 521 of 1152, 58733 supersamples
+  0:00:10 Rendering line 566 of 1152, 66242 supersamples
+  0:00:11 Rendering line 614 of 1152, 73126 supersamples
+  0:00:12 Rendering line 669 of 1152, 79993 supersamples
+  0:00:13 Rendering line 725 of 1152, 86427 supersamples
+  0:00:14 Rendering line 765 of 1152, 91577 supersamples
+  0:00:15 Rendering line 825 of 1152, 99163 supersamples
+  0:00:16 Rendering line 896 of 1152, 107993 supersamples
+  0:00:17 Rendering line 964 of 1152, 118175 supersamples
+  0:00:18 Rendering line 1114 of 1152, 127963 supersamples
+Possible Rendering Error: Maximum trace level reached! If your scene contains
+ black spots read more about the max_trace_level setting in the documentation!
+
+  0:00:18 Done Tracing
+Render Statistics
+Image Resolution 1536 x 1152
+----------------------------------------------------------------------------
+Pixels:          1771008   Samples:         2794712   Smpls/Pxl: 1.58
+Rays:            3816770   Saved:             25659   Max Level: 5/5
+----------------------------------------------------------------------------
+Ray->Shape Intersection          Tests       Succeeded  Percentage
+----------------------------------------------------------------------------
+Blob                           7075068           86322      1.22
+Blob Component                 6015022          112152      1.86
+Blob Bound                    21225204         6015022     28.34
+Box                            9383608         4260304     45.40
+Cone/Cylinder                  3899863         1851537     47.48
+Superellipsoid                  349448          152713     43.70
+True Type Font                  930582          354538     38.10
+Bounding Box                 233624792        59825815     25.61
+Vista Buffer                  47650022        26818797     56.28
+----------------------------------------------------------------------------
+Roots tested:                 92114   eliminated:                 1963
+Calls to Noise:                   0   Calls to DNoise:              10
+----------------------------------------------------------------------------
+Shadow Ray Tests:           4571522   Succeeded:                     0
+Reflected Rays:              689250   Total Internal:             1748
+Refracted Rays:              331870
+Transmitted Rays:               938
+----------------------------------------------------------------------------
+Smallest Alloc:                   9 bytes
+Largest  Alloc:               38408 bytes
+Peak memory used:           1721580 bytes
+Total Scene Processing Times
+  Parse Time:    0 hours  0 minutes  0 seconds (0 seconds)
+  Photon Time:   0 hours  0 minutes  0 seconds (0 seconds)
+  Render Time:   0 hours  0 minutes 18 seconds (18 seconds)
+  Total Time:    0 hours  0 minutes 18 seconds (18 seconds)
+
+Compressing results.
+Finished pybinreg.py analysis on Thursday, 14 July 2016, 03:46 PM.
